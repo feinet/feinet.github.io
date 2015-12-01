@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>---index---</title>
+
+    <script src="Libs/Js/angular/angular.js"></script>
+    <script src="Libs/Js/angular/angular-route.js"></script>
+    <script src="Libs/Js/app.js"></script>
+    <script src="Libs/Js/ctrls/mainCtrl.js"></script>
+    <script src="Libs/Js/ctrls/dateCalcCtrl.js"></script>
+    <script src="Libs/Js/ctrls/ctrls.js"></script>
+
+    <link href="Libs/Css/bootstrap3/bootstrap.css" rel="stylesheet" />
+    <link href="Libs/Css/WebFont/awesome-4.1.0/font-awesome.css" rel="stylesheet" />
+    <link href="Libs/Css/Custom/main.css" rel="stylesheet" />
+
+</head>
+<body ng-app="mainApp">
+    <div class="container-fluid">
+        <div class="row" ng-controller="navbarCtrl">
+            <nav class="navbar navbar-inverse">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#/">Fei's Home</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="">开发中..</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#/littleUtils">小工具</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        <div ng-view=""></div>
+    </div>
+
+</body>
+</html>

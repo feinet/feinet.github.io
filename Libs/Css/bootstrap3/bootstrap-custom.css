@@ -1,0 +1,128 @@
+﻿/*
+@reference bootstrap-theme.css
+*/
+/**********************************************
+* 共同样式
+***********************************************/
+body
+{
+    font-family: "Arial" , "Microsoft YaHei" ,微软雅黑, "맑은 고딕" ,margun, 돋움,Dotum;
+}
+.emptytop1
+{
+    height: 55px;
+    margin: 0px;
+}
+.row1
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.title-xs
+{
+    width: 80px;
+    text-align: right;
+}
+
+.title-sm
+{
+    width: 110px;
+    text-align: right;
+}
+.title-md
+{
+    width: 140px;
+    text-align: right;
+}
+.title-lg
+{
+    width: 180px;
+    text-align: right;
+}
+.input-group
+{
+    width: 100%;
+}
+
+.gap-top
+{
+    margin-top: 10px;
+}
+
+.gap-icon
+{
+    margin-right: 5px;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/*************************
+* 颜色样式
+**************************/
+.nav-ico-plus
+{
+    color: #a069c3;
+}
+.nav-ico-search
+{
+    color: #ff892a;
+}
+.nav-ico-refresh
+{
+    color: #69aa46;
+}
+.nav-ico-trash
+{
+    color: #DD5A43;
+}
+.nav-ico-pencil
+{
+    color: #478FCA;
+}
+.nav-ico-disk
+{
+    color: #69AA46;
+}
+.nav-ico-cancel
+{
+    color: #DD5A43;
+}
+.input-group .input-readonly
+{
+    background-color:rgba(250,250,250,0.8);
+    -webkit-background-color:rgba(250,250,0,0.5);
+    background-color:#fafafa\9;
+    cursor:default;
+}
+/*************************
+* 左侧菜单样式
+**************************/
+.list-group-item.active span
+{
+    color: #ffffff;
+}
+.panel, .panel > .list-group:last-child .list-group-item:last-child
+{
+    /*border-radius:0px;*/
+}
+/*************************
+* 验证控件样式
+**************************/
+.tooltip.validate .tooltip-arrow
+{
+}
+.tooltip.validate .tooltip-inner
+{
+}
+
+.tooltip .validate-example
+{
+    margin-top: 5px;
+    padding-top: 3px;
+    padding-left: 3px;
+    border-top: solid 1px rgb(200,200,200);
+    color: rgb(200,200,200);
+}
