@@ -18,6 +18,16 @@
 </head>
 <body ng-app="mainApp">
     <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <img src="/Sources/imgs/R1.png" style="height:100px;" />
+            </div>
+            <div class="col-md-5" style="vertical-align:middle;">
+                <p>联系电话：000-11111111</p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
         <div class="row" ng-controller="navbarCtrl">
             <nav class="navbar navbar-inverse">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -37,9 +47,23 @@
                 </div>
             </nav>
         </div>
-
+        
 
         <div ng-view=""></div>
+
+        <div class="row footer">
+            <p>友情链接</p>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div>
+                        <img src="Sources/imgs/R1.png" />
+                        <p>第一个</p>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
     </div>
 
 </body>
