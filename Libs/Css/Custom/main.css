@@ -1,17 +1,79 @@
 ﻿body {
-    font-family:'Microsoft YaHei'
+    font-family: 'Microsoft YaHei';
 }
+
 .dropdown:hover .dropdown-menu {
     display: block;
 }
+
 .gray {
-    background-color:#727171;
-    color:#ffffff
+    background-color: #727171;
+    color: #ffffff;
 }
+
 .friendLink {
     height: 83px;
     width: 180px;
     box-shadow: 0 4px 10px rgba(0,0,0,.35);
     margin: 5px 5px 5px 5px;
     border-radius: 5px;
+}
+
+.sideMenuAndSlideImg {
+    height: 600px;
+}
+
+.sideMenu {
+    list-style: none;
+    padding-left:35px;
+}
+
+.sideMenuItem {
+    list-style: none;
+    /*border-color: #fff;
+    border-width: 1px;
+    border-style: solid;*/
+    /*border-radius: 3px 0 0 3px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    color: #3b3b3b;
+    transition: padding-left .3s;
+    /*position: relative;
+    background-position: 224px -30px;*/
+}
+
+.sideMenuItemCurrent {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    border-radius: 3px 0 0 3px;
+    box-shadow: 10px 0 0 0 #fff,1px 1px 4px 0 rgba(0,0,0,0.25);
+    color: #d7000f;
+    /*border-color:gray;*/
+    /*background-color:#fff;*/
+    /*z-index:2;*/
+    transition: padding-left .3s;
+}
+
+.sideMenuItem > a {
+    color: #3b3b3b;
+}
+
+.sideMenuItemCurrent > a {
+    color: #d7000f;
+}
+
+.sideMenuChild {
+    position: absolute;
+    top: 0px;
+    left: 360px;
+    z-index: 100;
+    height: 500px;
+    width: 800px;
+    padding-top: 60px;
+    border-radius: 3px 0 0 3px;
+    box-shadow: 10px 0 0 0 #fff,1px 1px 4px 4px rgba(0,0,0,0.25);
+    background-color: #fff;
 }
