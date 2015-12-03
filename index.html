@@ -6,64 +6,82 @@
 
     <script src="Libs/Js/angular/angular.js"></script>
     <script src="Libs/Js/angular/angular-route.js"></script>
+
     <script src="Libs/Js/app.js"></script>
     <script src="Libs/Js/ctrls/mainCtrl.js"></script>
-    <script src="Libs/Js/ctrls/dateCalcCtrl.js"></script>
     <script src="Libs/Js/ctrls/ctrls.js"></script>
 
-    <link href="Libs/Css/bootstrap3/bootstrap.css" rel="stylesheet" />
+    <script src="Libs/Js/jquery/jquery-1.11.1.js"></script>
+    <script src="Libs/Js/bootstrap3/bootstrap.js"></script>
+
+    <!--<link href="Libs/Css/bootstrap3/bootstrap.css" rel="stylesheet" />-->
+    <link href="Libs/Css/Custom/bootstrap.css" rel="stylesheet" />
     <link href="Libs/Css/WebFont/awesome-4.1.0/font-awesome.css" rel="stylesheet" />
     <link href="Libs/Css/Custom/main.css" rel="stylesheet" />
 
 </head>
 <body ng-app="mainApp">
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-5">
+
+        <div class="row" style="height:100px;">
+            <div class="col-md-8 col-md-offset-1">
                 <img src="/Sources/imgs/R1.png" style="height:100px;" />
             </div>
-            <div class="col-md-5" style="vertical-align:middle;">
-                <p>联系电话：000-11111111</p>
+            <div class="col-md-2">
+                <div style="margin-top:40px;">
+                    <i class="fa fa-phone fa-2x" style="margin-right:5px;"></i>联系电话：000-11111111
+                </div>
             </div>
-            <div class="col-md-1"></div>
         </div>
+
         <div class="row" ng-controller="navbarCtrl">
             <nav class="navbar navbar-inverse">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#/">Fei's Home</a>
-                </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse col-md-offset-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="">开发中..</a></li>
-                    </ul>
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#/littleUtils">小工具</a></li>
+                        <li ng-repeat="menu in topMenu" ng-class="{true: 'dropdown', false: ''}[menu.child!=null]">
+                            <a href="{{menu.url}}">{{menu.name}} <span class="caret" ng-show="menu.child!=null"></span></a>
+                            <ul class="dropdown-menu">
+                                <li ng-repeat="cm in menu.child"><a href="{{cm.url}}">{{cm.name}}</a></li>
+                            </ul>
+                        </li>
                     </ul>
+                    
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <span class="input-group-addon btn"><i class="fa fa-search"></i></span>
+                        </div>
+                    </form>
                 </div>
             </nav>
+
         </div>
-        
+
 
         <div ng-view=""></div>
 
-        <div class="row footer">
-            <p>友情链接</p>
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-10">
-                    <div>
-                        <img src="Sources/imgs/R1.png" />
-                        <p>第一个</p>
+        <div class="row gray">
+            <div class="col-md-12">
+                <div class="row" style="padding-top:20px;">
+                    <div class="col-md-offset-1">
+                        <p>友情链接</p>
                     </div>
                 </div>
-                <div class="col-md-1"></div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <a class="btn friendLink" style="background-image:url('/Sources/imgs/R1.png')"></a>
+                        <a class="btn friendLink" style="background-image:url('/Sources/imgs/R1.png')"></a>
+                        <a class="btn friendLink" style="background-image:url('/Sources/imgs/R1.png')"></a>
+                    </div>
+                </div>
+                <div class="row text-center" style="margin-top:50px;padding-top:10px;padding-bottom:10px;background-color:#524f4f;">
+                    ©2015 某某公司 版权所有 沪ICP备某某号 技术支持：fei
+                </div>
             </div>
         </div>
+
     </div>
 
 </body>
