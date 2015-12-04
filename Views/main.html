@@ -1,5 +1,5 @@
 ﻿<style type="text/css">
-    
+
 </style>
 <div class="row">
     <div class="col-md-1">
@@ -54,19 +54,19 @@
 
                     <!-- Controls -->
                     <!--<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="fa fa-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="fa fa-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>-->
+                        <span class="fa fa-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="fa fa-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>-->
                 </div>
 
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" ng-controller="classicalCaseCtrl">
             <div class="col-md-12">
                 <div class="row gray" style="height:50px;">
                     <div class="col-md-offset-1">
@@ -74,7 +74,16 @@
                     </div>
                 </div>
                 <div class="row scrollContainer">
+                    <div class="scrollContainer-inner">
+                        <div class="scrollContainer-imgs">
+                            <a href="{{item.url}}" ng-repeat="item in scrollImgs">
+                                <img src="{{item.img}}" />
+                            </a>
+                        </div>
+                        <div class="scrollContainer-imgs">
 
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

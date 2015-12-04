@@ -41,4 +41,36 @@
     $scope.blurItem=function(index){
         $scope.sideMenu[index].isFocus = false;
     }
-});
+})
+.controller("classicalCaseCtrl", function ($scope) {
+    $scope.scrollImgs = [
+        { name: "test001", url: "#", img: "/Sources/imgs/01.jpg" },
+        { name: "test002", url: "#", img: "/Sources/imgs/02.jpg" },
+        { name: "test003", url: "#", img: "/Sources/imgs/03.jpg" },
+        { name: "test004", url: "#", img: "/Sources/imgs/04.jpg" },
+        { name: "test005", url: "#", img: "/Sources/imgs/05.jpg" },
+        { name: "test006", url: "#", img: "/Sources/imgs/06.jpg" }
+    ];
+
+    window.onload = function () {
+        var speed = 20;
+        var container = document.getElementsByClassName("scrollContainer")[0];
+        var imgsDiv = document.getElementsByClassName("scrollContainer-imgs");
+        var imgdiv1 = imgsDiv[0];
+        var imgdiv2 = imgsDiv[1];
+        imgdiv2.innerHTML = imgdiv1.innerHTML;
+        var Scrolling = function () {
+            if (imgdiv2.offsetWidth - container.scrollLeft <= 0)
+                container.scrollLeft -= imgdiv1.offsetWidth
+            else {
+                container.scrollLeft++;
+            }
+        }
+        var scrollInterval = setInterval(Scrolling, speed);
+        container.onmouseover = function () { clearInterval(scrollInterval) };
+        container.onmouseout = function () { scrollInterval = setInterval(Scrolling, speed) };
+    }
+   
+})
+
+;

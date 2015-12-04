@@ -88,3 +88,17 @@
     border: 1px dashed #CCC;
     width: 100%;
 }
+
+.scrollContainer-inner {
+    float: left;
+    /*width: 800%;*/
+    width: 20000%;
+}
+
+.scrollContainer-imgs {
+    float: left;
+}
+
+.scrollContainer img {
+    border: 3px solid #F2F2F2;
+}
