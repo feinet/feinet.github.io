@@ -7,24 +7,24 @@
     <div class="col-md-10">
         <div class="row">
             <div class="col-md-3 sideMenuAndSlideImg" ng-controller="sideMenuCtrl">
-                <div>
-                    <h3><i class="fa fa-list-ul" style="color: #d7000f;margin-right:10px;padding-left:10px;"></i>产品分类</h3>
-                    <div class="sideMenu">
-                        <div ng-repeat="menu in sideMenu" ng-class="{true: 'sideMenuItemCurrent', false: 'sideMenuItem'}[menu.isFocus]" ng-mouseover="focusItem($index)" ng-mouseleave="blurItem($index)">
-                            <a href="{{menu.url}}">{{menu.name}}</a><i class="fa fa-angle-right pull-right"></i>
-                            <div class="row sideMenuChild" ng-show="menu.isFocus">
-                                <div class="col-md-6 text-center">
-                                    <p>{{menu.child[0].name}}</p>
-                                    <img src="{{menu.child[0].img}}" />
-                                </div>
-                                <div class="col-md-6 text-center">
-                                    <p>{{menu.child[1].name}}</p>
-                                    <img src="{{menu.child[1].img}}" />
-                                </div>
+                <!--<div>-->
+                <h3><i class="fa fa-list-ul fa-margin" style="color: #d7000f;padding-left:10px;"></i>产品分类</h3>
+                <div class="sideMenu">
+                    <div ng-repeat="menu in sideMenu" ng-class="{true: 'sideMenuItemCurrent', false: 'sideMenuItem'}[menu.isFocus]" ng-mouseover="focusItem($index)" ng-mouseleave="blurItem($index)">
+                        <a href="{{menu.url}}">{{menu.name}}</a><i class="fa fa-angle-right pull-right" style="padding-right:35px;"></i>
+                        <div class="row sideMenuChild" ng-show="menu.isFocus">
+                            <div class="col-md-6 text-center">
+                                <p>{{menu.child[0].name}}</p>
+                                <img ng-src="{{menu.child[0].img}}" />
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <p>{{menu.child[1].name}}</p>
+                                <img ng-src="{{menu.child[1].img}}" />
                             </div>
                         </div>
                     </div>
                 </div>
+                <!--</div>-->
 
             </div>
             <div class="col-md-9 sideMenuAndSlideImg" ng-controller="slideImgCtrl">
@@ -68,21 +68,40 @@
 
         <div class="row" ng-controller="classicalCaseCtrl">
             <div class="col-md-12">
-                <div class="row gray" style="height:50px;">
-                    <div class="col-md-offset-1">
-                        经典案例
-                    </div>
+                <div class="row gray" style="padding-left:20px;">
+                    <h3 style="margin-top:10px;" class="col-md-6"><i class="fa fa-ellipsis-v fa-margin"></i>经典案例</h3>
+                    <a style="margin-right:10px;margin-top:5px;" class="btn btn-danger pull-right"><i class="fa fa-eye fa-margin"></i>more</a>
                 </div>
                 <div class="row scrollContainer">
                     <div class="scrollContainer-inner">
-                        <div class="scrollContainer-imgs">
-                            <a href="{{item.url}}" ng-repeat="item in scrollImgs">
-                                <img src="{{item.img}}" />
+                        <!--<div class="scrollContainer-imgs" style="display:inline;overflow:hidden;">
+                            <a href="{{item.url}}" ng-repeat="item in scrollImgs" data-toggle="tooltip" title="{{item.name}}">
+                                <img ng-src="{{item.img}}" />
+                                <span style="display:block;margin-top:20px;">{{item.name}}</span>
                             </a>
-                        </div>
-                        <div class="scrollContainer-imgs">
-
-                        </div>
+                        </div>-->
+                        <!--<div class="scrollContainer-imgs" style="display: inline; overflow: hidden;">
+                            <a href="{{item.url}}" ng-repeat="item in scrollImgs" data-toggle="tooltip" title="{{item.name}}">
+                                <img ng-src="{{item.img}}" />
+                                <span>{{item.name}}</span>
+                            </a>
+                        </div>-->
+                        <table>
+                            <tr>
+                                <td class="scrollContainer-imgs" ng-repeat="i in [1,2]">
+                                    <table>
+                                        <tr align="middle">
+                                            <td ng-repeat="item in scrollImgs">
+                                                <p>
+                                                    <img ng-src="{{item.img}}" />
+                                                </p>
+                                                <a>{{item.name}}</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
