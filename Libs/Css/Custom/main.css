@@ -11,6 +11,10 @@
     color: #ffffff;
 }
 
+.footer {
+    margin-top: 10px;
+}
+
 .friendLink {
     height: 83px;
     width: 180px;
@@ -25,7 +29,7 @@
 
 .sideMenu {
     list-style: none;
-    padding-left:35px;
+    padding-left: 35px;
 }
 
 .sideMenuItem {
@@ -76,4 +80,11 @@
     border-radius: 3px 0 0 3px;
     box-shadow: 10px 0 0 0 #fff,1px 1px 4px 4px rgba(0,0,0,0.25);
     background-color: #fff;
+}
+
+.scrollContainer {
+    background: #FFF;
+    overflow: hidden;
+    border: 1px dashed #CCC;
+    width: 100%;
 }
