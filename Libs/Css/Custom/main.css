@@ -99,13 +99,17 @@
 .scrollContainer-inner {
     float: left;
     /*width: 800%;*/
-    width: 100%;
+    width: 20000%;
 }
 
 .scrollContainer-imgs {
-    /*float: left;*/
+    float: left;
 }
 
 .scrollContainer img {
     border: 3px solid #F2F2F2;
 }
+a:hover {
+    background-color:red;
+}
+

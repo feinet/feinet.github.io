@@ -54,8 +54,8 @@
 
     window.onload = function () {
         var speed = 20;
-        //var container = document.getElementsByClassName("scrollContainer")[0];
-        var container = document.getElementsByClassName("scrollContainer-inner")[0];
+        var container = document.getElementsByClassName("scrollContainer")[0];
+        //var container = document.getElementsByClassName("scrollContainer-inner")[0];
         var imgsDiv = document.getElementsByClassName("scrollContainer-imgs");
         var imgdiv1 = imgsDiv[0];
         var imgdiv2 = imgsDiv[1];
@@ -71,7 +71,7 @@
         container.onmouseover = function () { clearInterval(scrollInterval) };
         container.onmouseout = function () { scrollInterval = setInterval(Scrolling, speed) };
 
-        $('[data-toggle="tooltip"]').tooltip({ placement: "bottom" });
+        //$('[data-toggle="tooltip"]').tooltip({ placement: "bottom" });
     }
    
 })
