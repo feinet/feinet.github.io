@@ -1,6 +1,9 @@
 ﻿body {
     font-family: 'Microsoft YaHei';
 }
+.zoneSplit{
+    height:10px;
+}
 
 .fa-margin {
     margin-right: 10px;

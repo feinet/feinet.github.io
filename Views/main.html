@@ -1,12 +1,18 @@
 ﻿<style type="text/css">
 
 </style>
+<script type="text/javascript">
+    $(document).ready(function () {
+        alert("ready");
+    })
+</script>
+<div class="row zoneSplit"></div>
 <div class="row">
     <div class="col-md-1">
     </div>
     <div class="col-md-10">
         <div class="row">
-            <div class="col-md-3 sideMenuAndSlideImg" ng-controller="sideMenuCtrl">
+            <div class="col-md-3 sideMenuAndSlideImg zone" ng-controller="sideMenuCtrl">
                 <!--<div>-->
                 <h3><i class="fa fa-list-ul fa-margin" style="color: #d7000f;padding-left:10px;"></i>产品分类</h3>
                 <div class="sideMenu">
@@ -66,6 +72,7 @@
             </div>
         </div>
 
+        <div class="row zoneSplit"></div>
         <div class="row" ng-controller="classicalCaseCtrl">
             <div class="col-md-12">
                 <div class="row gray zoneTitle">
@@ -74,7 +81,7 @@
                 </div>
                 <div class="row scrollContainer">
                     <div class="scrollContainer-inner">
-                        <div class="scrollContainer-imgs" ng-repeat="i in [1,2]">
+                        <div class="scrollContainer-imgs" ng-repeat="i in [1,2]" on-finish-render="setScroll()">
                             <a href="{{item.url}}" ng-repeat="item in scrollImgs" style="display:inline-block;">
                                 <img ng-src="{{item.img}}" />
                                 <span style="display: block; text-align: center; color: #ffffff;">{{item.name}}</span>
@@ -106,7 +113,7 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="height:10px;"></div>
+        <div class="row zoneSplit"></div>
         <div class="row" ng-controller="QANewsCtrl">
             <div class="col-md-8">
                 <div class="row gray zoneTitle">
@@ -119,7 +126,7 @@
                     </div>
                     <div class="col-md-8">
                         <div class="qaScroll qa-news-zone" id="qaScroll">
-                            <div id="qaScroll1">
+                            <div id="qaScroll{{i}}" ng-repeat="i in [1,2]" on-finish-render="setScroll()">
                                 <dl ng-repeat="qa in qaList">
                                     <dt>
                                         <i class="fa fa-question-circle fa-margin"></i><a ng-href="{{qa.url}}">{{qa.question}}</a>
@@ -129,7 +136,7 @@
                                     </dd>
                                 </dl>
                             </div>
-                            <div id="qaScroll2">
+                            <!--<div id="qaScroll2">
                                 <dl ng-repeat="qa in qaList">
                                     <dt>
                                         <i class="fa fa-question-circle fa-margin"></i><a ng-href="{{qa.url}}">{{qa.question}}</a>
@@ -138,7 +145,7 @@
                                         <i class="fa fa-quote-left fa-margin"></i>{{qa.answer}}<i class="fa fa-quote-right"></i>
                                     </dd>
                                 </dl>
-                            </div>
+                            </div>-->
                            
                         </div>
                     </div>
