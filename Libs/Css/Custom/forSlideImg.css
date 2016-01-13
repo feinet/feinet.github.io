@@ -4,9 +4,9 @@
 	/*height:172px;*/
     height:100%;
 	background:#fff;
-	border-radius:5px;
-	border:8px solid #fff;
-	margin:10px auto;
+	/*border-radius:5px;
+	border:1px solid #fff;*/
+	/*margin:10px auto;*/
 	cursor:pointer;
 }
 #box_yingxinslide .list {
@@ -19,12 +19,14 @@
     list-style-type:none;
 	position:absolute;
 	top:0;
-	left:0;
+	left:0px;
     width:100000px;
+
+    padding:0px;
 }
 #box_yingxinslide .list li {
-	width:490px;
-	height:170px;
+	/*width:490px;
+	height:170px;*/
 	overflow:hidden;
     float:left;
 }

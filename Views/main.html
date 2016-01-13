@@ -2,11 +2,7 @@
 
 </style>
 <link href="../Libs/Css/Custom/forSlideImg.css" rel="stylesheet" />
-<script type="text/javascript">
-    $(document).ready(function () {
-        alert("ready");
-    })
-</script>
+
 <div class="row zoneSplit"></div>
 <div class="row">
     <div class="col-md-1">
@@ -36,10 +32,10 @@
             </div>
             <div class="col-md-9 sideMenuAndSlideImg" ng-controller="slideImgCtrl">
 
-                <div id="box_yingxinslide" class="row">
+                <div id="box_yingxinslide">
                     <div class="list">
                         <ul>
-                            <li ng-repeat="img in slideImgs" on-finish-render="setScroll()"><img ng-src="{{img.img}}" width="490" height="170" /></li>
+                            <li ng-repeat="img in slideImgs" on-finish-render="setScroll()"><img ng-src="{{img.img}}" width="989" height="550" /></li>
                         </ul>
                     </div>
                 </div>

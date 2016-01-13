@@ -1,11 +1,11 @@
 ﻿mainMoudle.controller('slideImgCtrl', ['$scope', function ($scope) {
 
     $scope.slideImgs = [
-        { img: "/Sources/imgs/slideImg/01.jpg" },
-        { img: "/Sources/imgs/slideImg/02.jpg" },
-        { img: "/Sources/imgs/slideImg/03.jpg" },
-        { img: "/Sources/imgs/slideImg/04.jpg" },
-        { img: "/Sources/imgs/slideImg/05.jpg" }
+        { img: "/Sources/realImgs/slideImgs/ps1.jpg" },
+        { img: "/Sources/realImgs/slideImgs/ps2.jpg" },
+        { img: "/Sources/realImgs/slideImgs/ps3.jpg" },
+        { img: "/Sources/realImgs/slideImgs/ps4.jpg" },
+        { img: "/Sources/realImgs/slideImgs/ps5.jpg" }
     ];
 
     //slideImg
