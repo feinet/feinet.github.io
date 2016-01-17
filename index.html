@@ -49,7 +49,7 @@
                             </ul>
                         </li>
                     </ul>
-                    
+
                     <form class="navbar-form navbar-right">
                         <div class="form-group input-group">
                             <input type="text" class="form-control" placeholder="Search">
@@ -64,7 +64,7 @@
 
         <div ng-view=""></div>
 
-        <div class="row gray footer">
+        <div class="row gray footer" ng-controller="footerCtrl">
             <div class="col-md-12">
                 <div class="row" style="padding-top:20px;">
                     <div class="col-md-offset-1">
@@ -73,9 +73,8 @@
                 </div>
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
-                        <a class="btn friendLink" style="background-image:url('/Sources/imgs/R1.png')"></a>
-                        <a class="btn friendLink" style="background-image:url('/Sources/imgs/R1.png')"></a>
-                        <a class="btn friendLink" style="background-image:url('/Sources/imgs/R1.png')"></a>
+                        <a ng-href="{{fLink.url}}" target="_blank" class="btn friendLink" style="background: url('{{fLink.img}}') no-repeat" ng-repeat="fLink in friendLink" data-placement="bottom" title="{{fLink.desc}}" on-finish-render="setTip()">
+                        </a>
                     </div>
                 </div>
                 <div class="row text-center" style="margin-top:50px;padding-top:10px;padding-bottom:10px;background-color:#524f4f;">

@@ -55,4 +55,23 @@
     ];
 
 
-}]);
+}])
+.controller('footerCtrl', function ($scope) {
+    $scope.friendLink = [
+        {
+            img: '/Sources/realImgs/friendLink/seagate.jpg',
+            url: 'http://www.seagate.com',
+            desc: '希捷公司成立于1979年，是全球领先的硬盘和存储解决方案供应商'
+        },
+        {
+            img: '/Sources/realImgs/friendLink/hikvision.png',
+            url: 'http://www.hikvision.com',
+            desc: '海康威视成立于2001年，是中国领先的监控产品及解决方案提供商'
+        }
+    ];
+    $scope.setTip = function () {
+        $('.friendLink').tooltip();
+    }
+})
+
+;

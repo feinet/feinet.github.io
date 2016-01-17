@@ -29,6 +29,19 @@
     margin: 5px 5px 5px 5px;
     border-radius: 5px;
 }
+.friendLink-desc
+{
+    width: 180px;
+    display: block;
+    color: #777679;
+    text-align: center;
+    position: relative;
+    left: 0px;
+    top: 85px;
+    border: 1px solid #d8d8d8;
+    padding: 6px 0;
+    background: #fff;
+}
 
 .sideMenuAndSlideImg {
     height: 550px;
