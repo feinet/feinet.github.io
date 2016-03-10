@@ -110,7 +110,7 @@
             ], isFocus: false
         },
         {
-            name: "高清网络光端机", url: "#/", child: [
+            name: "数字监控专用光端机", url: "#/", child: [
                 { name: "100M（百兆）高清系列", url: "#/", img: "/Sources/imgs/R1.png" },
                 { name: "1000M（千兆）高清系列", url: "#/", img: "/Sources/imgs/R1.png" }
             ], isFocus: false
@@ -170,7 +170,7 @@
     }
 
 })
-.controller('QANewsCtrl', function ($scope) {
+.controller('QANewsCtrl', function ($scope,qaDataService) {
     //news
     $scope.news = [
         { content: "新闻一。。。。", url: "#/", isFocus: false },
@@ -191,33 +191,38 @@
     //qa
     //$scope.qaZoneLeftImg = "/Sources/imgs/wdBox.png";
     $scope.qaZoneLeftImg = "/Sources/realImgs/others/FAQ.jpg";
-    $scope.qaList = [
-        {
-            question: "了空间了空间浪费空间？",
-            answer: "了空间链接了解了了时间段里疯狂就死定了拉开距离龙聚楼酒楼。",
-            url: "#/"
-        },
-        {
-            question: "欧赔，门将离开了我我我？",
-            answer: "路肩路肩了解空间抛弃破IPIQ颇为家里快急死了到家了抛弃破费破量减少了空间刻录机你，没呢，吗。",
-            url: "#/"
-        },
-        {
-            question: "户名称来看及？",
-            answer: "我我我我ijoiiouosuf看见了看见了看见了健康了健康记录劈破。",
-            url: "#/"
-        },
-        {
-            question: "品牌空间关闭接口卡啦啦啦？",
-            answer: "哦IE偶奇偶及皮肤鹿鼎记佛经里看见的怕看见了家里快乐偶奇偶及皮肤鹿鼎记佛经里看见的怕看见了家里快乐偶奇偶及皮肤鹿鼎记佛经里看见的怕看见了家里快乐。",
-            url: "#/"
-        },
-        {
-            question: "两句话给帮忙看看匹配进口零距离？",
-            answer: "我看见了建瓯盘欺骗记录到快来看才看见哦自己哦了。",
-            url: "#/"
-        }
-    ];
+    //$scope.qaList = [
+    //    {
+    //        question: "了空间了空间浪费空间？",
+    //        answer: "了空间链接了解了了时间段里疯狂就死定了拉开距离龙聚楼酒楼。",
+    //        url: "#/"
+    //    },
+    //    {
+    //        question: "欧赔，门将离开了我我我？",
+    //        answer: "路肩路肩了解空间抛弃破IPIQ颇为家里快急死了到家了抛弃破费破量减少了空间刻录机你，没呢，吗。",
+    //        url: "#/"
+    //    },
+    //    {
+    //        question: "户名称来看及？",
+    //        answer: "我我我我ijoiiouosuf看见了看见了看见了健康了健康记录劈破。",
+    //        url: "#/"
+    //    },
+    //    {
+    //        question: "品牌空间关闭接口卡啦啦啦？",
+    //        answer: "哦IE偶奇偶及皮肤鹿鼎记佛经里看见的怕看见了家里快乐偶奇偶及皮肤鹿鼎记佛经里看见的怕看见了家里快乐偶奇偶及皮肤鹿鼎记佛经里看见的怕看见了家里快乐。",
+    //        url: "#/"
+    //    },
+    //    {
+    //        question: "两句话给帮忙看看匹配进口零距离？",
+    //        answer: "我看见了建瓯盘欺骗记录到快来看才看见哦自己哦了。",
+    //        url: "#/"
+    //    }
+    //];
+    $scope.qaList = qaDataService.getCategory(1).data;
+    $scope.tabFocus = function (index) {
+        $scope.qaList = qaDataService.getCategory(index).data;
+    }
+        
 
     $scope.setScroll = function () {
         var speed = 30;

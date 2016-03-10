@@ -17,7 +17,7 @@
                 <div class="sideMenu">
                     <div ng-repeat="menu in sideMenu" ng-class="{true: 'sideMenuItemCurrent', false: 'sideMenuItem'}[menu.isFocus]" ng-mouseover="focusItem($index)" ng-mouseleave="blurItem($index)">
                         <a href="{{menu.url}}">{{menu.name}}</a><i class="fa fa-angle-right pull-right" style="padding-right:35px;"></i>
-                        <div class="row sideMenuChild" ng-show="menu.isFocus">
+                        <!--<div class="row sideMenuChild" ng-show="menu.isFocus">
                             <div class="col-md-6 text-center">
                                 <p>{{menu.child[0].name}}</p>
                                 <img ng-src="{{menu.child[0].img}}" />
@@ -26,7 +26,7 @@
                                 <p>{{menu.child[1].name}}</p>
                                 <img ng-src="{{menu.child[1].img}}" />
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
                 <!--</div>-->
@@ -37,33 +37,10 @@
                 <div id="box_yingxinslide">
                     <div class="list">
                         <ul>
-                            <li ng-repeat="img in slideImgs" on-finish-render="setScroll()"><img ng-src="{{img.img}}" width="989" height="550" /></li>
+                            <li ng-repeat="img in slideImgs" on-finish-render="setScroll()"><img ng-src="{{img.img}}" width="889" height="450" /></li>
                         </ul>
                     </div>
                 </div>
-
-                <!--<div id="myCarousel" class="carousel slide">
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                    </ol>
-
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img src="/Sources/imgs/slide3.png" alt="slide3">
-                            <div class="carousel-caption">
-                                <p>slide3</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="/Sources/imgs/sl2.png" alt="sl2">
-                            <div class="carousel-caption">
-                                <p>sl2</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>-->
 
             </div>
         </div>
@@ -121,6 +98,29 @@
                         <!--<img ng-src="{{qaZoneLeftImg}}" />-->
                     </div>
                     <div class="col-md-8">
+                        <div class="row qaCategory">
+                            <a href="#/" class="btn btn-lg" ng-mouseenter="tabFocus(1)">脉冲</a>丨
+                            <a href="#/" class="btn btn-lg" ng-mouseenter="tabFocus(2)">张力</a>丨
+                            <a href="#/" class="btn btn-lg" ng-mouseenter="tabFocus(3)">振动</a>丨
+                            <a href="#/" class="btn btn-lg" ng-mouseenter="tabFocus(4)">光端机</a>
+                        </div>
+                        <div class="row">
+                            <div class="qaScroll qa-news-zone" id="qaScroll">
+                                <div id="qaScroll{{i}}" ng-repeat="i in [1,2]" on-finish-render="setScroll()">
+                                    <dl ng-repeat="qa in qaList">
+                                        <dt>
+                                            <i class="fa fa-question-circle fa-margin"></i><a ng-href="{{qa.url}}">{{qa.question}}</a>
+                                        </dt>
+                                        <dd>
+                                            <i class="fa fa-quote-left fa-margin"></i>{{qa.answerIntro}}<i class="fa fa-quote-right"></i>
+                                        </dd>
+                                    </dl>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="col-md-8">
                         <div class="qaScroll qa-news-zone" id="qaScroll">
                             <div id="qaScroll{{i}}" ng-repeat="i in [1,2]" on-finish-render="setScroll()">
                                 <dl ng-repeat="qa in qaList">
@@ -132,19 +132,9 @@
                                     </dd>
                                 </dl>
                             </div>
-                            <!--<div id="qaScroll2">
-                                <dl ng-repeat="qa in qaList">
-                                    <dt>
-                                        <i class="fa fa-question-circle fa-margin"></i><a ng-href="{{qa.url}}">{{qa.question}}</a>
-                                    </dt>
-                                    <dd>
-                                        <i class="fa fa-quote-left fa-margin"></i>{{qa.answer}}<i class="fa fa-quote-right"></i>
-                                    </dd>
-                                </dl>
-                            </div>-->
-                           
+
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
             <div class="col-md-4">

@@ -1,3 +1,11 @@
-﻿<div class="row">
-   <h1>this is Sample</h1>
+﻿<div class="row" ng-controller="testSample">
+   <h1>this is Sample{{name}}</h1>
+    <a ng-mouseenter="over1()">类别1</a>
+    <a ng-mouseenter="over2()">类别2</a>
+    <ul>
+        <li ng-repeat="c in category">{{c}}</li>
+    </ul>
+</div>
+<div class="row">
+    
 </div>

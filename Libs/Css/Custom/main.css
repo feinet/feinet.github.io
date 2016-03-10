@@ -44,7 +44,8 @@
 }
 
 .sideMenuAndSlideImg {
-    height: 550px;
+    /*height: 550px;*/
+    height: 450px;
     padding: 0px;
 }
 
@@ -185,4 +186,10 @@
 .qaScroll dd {
     padding: 9px 0;
     color:#727171;
+}
+.qaCategory a{
+    color: #3b3b3b;
+}
+.qaCategory a:hover{
+    color: #d7000f;
 }
