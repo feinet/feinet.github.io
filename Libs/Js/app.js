@@ -9,6 +9,9 @@
     //.when('/sample/s2', {
     //    templateUrl: 'Views/sample/s2.html'
     //})
+    .when('/qaList', {
+        templateUrl: 'Views/qa/qaList.html'
+    })
     .otherwise({
         redirectTo: '/'
     });
