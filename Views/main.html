@@ -99,17 +99,17 @@
                     </div>
                     <div class="col-md-8">
                         <div class="row qaCategory">
-                            <a href="#/" class="btn btn-lg" ng-mouseenter="tabFocus(1)">脉冲</a>丨
-                            <a href="#/" class="btn btn-lg" ng-mouseenter="tabFocus(2)">张力</a>丨
-                            <a href="#/" class="btn btn-lg" ng-mouseenter="tabFocus(3)">振动</a>丨
-                            <a href="#/" class="btn btn-lg" ng-mouseenter="tabFocus(4)">光端机</a>
+                            <a href="#/qaList/1" class="btn btn-lg" ng-mouseenter="tabFocus(1)">脉冲</a>丨
+                            <a href="#/qaList/2" class="btn btn-lg" ng-mouseenter="tabFocus(2)">张力</a>丨
+                            <a href="#/qaList/3" class="btn btn-lg" ng-mouseenter="tabFocus(3)">振动</a>丨
+                            <a href="#/qaList/4" class="btn btn-lg" ng-mouseenter="tabFocus(4)">光端机</a>
                         </div>
                         <div class="row">
                             <div class="qaScroll qa-news-zone" id="qaScroll">
                                 <div id="qaScroll{{i}}" ng-repeat="i in [1,2]" on-finish-render="setScroll()">
-                                    <dl ng-repeat="qa in qaList">
+                                    <dl ng-repeat="qa in qaCategory.data">
                                         <dt>
-                                            <i class="fa fa-question-circle fa-margin"></i><a ng-href="{{qa.url}}">{{qa.question}}</a>
+                                            <i class="fa fa-question-circle fa-margin"></i><a ng-href="{{qa.url}}qaDetail/{{qaCategory.id}}/{{qa.id}}">{{qa.question}}</a>
                                         </dt>
                                         <dd>
                                             <i class="fa fa-quote-left fa-margin"></i>{{qa.answerIntro}}<i class="fa fa-quote-right"></i>

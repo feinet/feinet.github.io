@@ -9,8 +9,11 @@
     //.when('/sample/s2', {
     //    templateUrl: 'Views/sample/s2.html'
     //})
-    .when('/qaList', {
+    .when('/qaList/:id', {
         templateUrl: 'Views/qa/qaList.html'
+    })
+    .when('/qaDetail/:catetogyId/:qaId', {
+        templateUrl: 'Views/qa/qaDetail.html'
     })
     .otherwise({
         redirectTo: '/'

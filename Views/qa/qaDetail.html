@@ -1,5 +1,5 @@
 ﻿<div class="row zoneSplit"></div>
-<div class="row" ng-controller="qaSideMenuCtrl">
+<div class="row" ng-controller="qaDetailCtrl">
     <div class="col-md-offset-1 col-md-2 sideMenuAndSlideImg zone">
         <h3><i class="fa fa-list-ul fa-margin" style="color: #d7000f;padding-left:10px;"></i>常识解答</h3>
         <div class="sideMenu">
@@ -12,16 +12,14 @@
     <div class="col-md-8 sideMenuAndSlideImg zone" style="overflow-y: scroll;">
 
         <div style="padding:30px;">
-            <h3>{{qaCategory.name}}</h3><hr />
-            <dl ng-repeat="qa in qaCategory.data">
+            <dl>
                 <dt>
-                    <i class="fa fa-question-circle fa-margin"></i><a ng-href="{{qa.url}}qaDetail/{{qaCategory.id}}/{{qa.id}}">{{qa.question}}</a>
-                </dt>
+                    <i class="fa fa-question-circle fa-margin"></i>{{qa.question}}
+                </dt><hr/>
                 <dd>
-                    <i class="fa fa-quote-left fa-margin"></i>{{qa.answerIntro}}<i class="fa fa-quote-right"></i>
+                    <i class="fa fa-quote-left fa-margin"></i>{{qa.answer}}<i class="fa fa-quote-right"></i>
                 </dd>
             </dl>
-
         </div>
 
     </div>

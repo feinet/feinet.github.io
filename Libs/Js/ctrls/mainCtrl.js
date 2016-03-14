@@ -218,9 +218,9 @@
     //        url: "#/"
     //    }
     //];
-    $scope.qaList = qaDataService.getCategory(1).data;
+    $scope.qaCategory = qaDataService.getCategory(1);
     $scope.tabFocus = function (index) {
-        $scope.qaList = qaDataService.getCategory(index).data;
+        $scope.qaCategory = qaDataService.getCategory(index);
     }
         
 
