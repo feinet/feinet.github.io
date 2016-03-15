@@ -15,6 +15,12 @@
     .when('/qaDetail/:catetogyId/:qaId', {
         templateUrl: 'Views/qa/qaDetail.html'
     })
+    .when('/newsList/:id', {
+        templateUrl: 'Views/news/newsList.html'
+    })
+    .when('/newsDetail/:catetogyId/:newsId', {
+        templateUrl: 'Views/news/newsDetail.html'
+    })
     .otherwise({
         redirectTo: '/'
     });

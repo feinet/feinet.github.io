@@ -144,11 +144,16 @@
                             <h3 style="margin-top:10px;" class="col-md-8"><i class="fa fa-comments fa-margin"></i>行业动态</h3>
                             <a style="margin-right:10px;margin-top:5px;" class="btn btn-danger pull-right"><i class="fa fa-eye fa-margin"></i>more</a>
                         </div>
+                        
                         <div class="row zone qa-news-zone">
+                            <div class="qaCategory">
+                                <a href="#/newsList/1" class="btn btn-lg" ng-mouseenter="newsTabFocus(1)">行业新闻</a>丨
+                                <a href="#/newsList/2" class="btn btn-lg" ng-mouseenter="newsTabFocus(2)">公司新闻</a>丨
+                            </div>
                             <ul style="">
-                                <li ng-repeat="new in news">
+                                <li ng-repeat="new in newsCategory.data">
                                     <!--<a ng-href="{{new.url}}" ng-class="{true: 'a-link-hover', false: 'a-link'}[new.isFocus]" ng-mouseover="aLinkHover($index)" ng-mouseleave="aLinkBlur($index)">{{new.content}}</a>-->
-                                    <a ng-href="{{new.url}}" class="a-link">{{new.content}}</a>
+                                    <a ng-href="{{new.url}}newsDetail/{{newsCategory.id}}/{{new.id}}" class="a-link">{{new.title}}</a>
                                 </li>
                             </ul>
                         </div>

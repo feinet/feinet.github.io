@@ -1,0 +1,25 @@
+﻿<div class="row zoneSplit"></div>
+<div class="row" ng-controller="newsListCtrl">
+    <div class="col-md-offset-1 col-md-2 sideMenuAndSlideImg zone">
+        <h3><i class="fa fa-list-ul fa-margin" style="color: #d7000f;padding-left:10px;"></i>新闻中心</h3>
+        <div class="sideMenu">
+            <div ng-repeat="menu in sideMenu" class="qaCategory sideMenuItem" ng-click="changeCategory($index)" style="cursor:pointer;">
+                <a href="#/newsList/{{$index+1}}">{{menu.name}}</a><i class="fa fa-angle-right pull-right" style="padding-right:35px;"></i>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-8 sideMenuAndSlideImg zone" style="overflow-y: scroll;">
+
+        <div style="padding:30px;">
+            <h3>{{newsCategory.name}}</h3><hr />
+            <ul style="">
+                <li ng-repeat="new in newsCategory.data">
+                    <a ng-href="{{new.url}}newsDetail/{{newsCategory.id}}/{{new.id}}" class="a-link">{{new.title}}</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+</div>
