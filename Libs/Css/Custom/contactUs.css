@@ -1,0 +1,41 @@
+﻿.suCon_pic {
+    display: block;
+    height: 100px;
+    padding-left: 45px;
+    background: url(/Sources/realImgs/others/suCon_picbg.jpg) no-repeat 35px 0;
+    min-width: 80px;
+}
+.suCon_wor {
+    display: block;
+    font: normal 12px/25px "Microsoft YaHei";
+    color: #333;
+}
+.support_contact {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    padding: 28px 0;
+}
+.suCon_pic font {
+    display: inline-block;
+    font: bold 14px/16px "Microsoft YaHei";
+    color: #2e2e2e;
+    padding-top: 26px;
+}
+.suCon_pic p {
+    display: inline-block;
+    font: 400 12px/16px Arial;
+    color: #2e2e2e;
+    text-transform: uppercase;
+}
+.suCon_wor a {
+    display: inline-block;
+    font: 600 12px/25px "Microsoft YaHei";
+    color: #d30304;
+}
+.contactUs dd{
+    float:left;
+    display:inline-block;
+    margin-right:70px;
+    margin-bottom:30px;
+}
