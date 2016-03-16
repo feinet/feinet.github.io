@@ -27,11 +27,11 @@
             ]
         },
         {
-            name: "常识解答", url: "#/", child: [
-                { name: "脉冲电子围栏", url: "#/" },
-                { name: "张力电子围栏", url: "#/" },
-                { name: "振动光纤系统", url: "#/" },
-                { name: "数字光端机", url: "#/" }
+            name: "常识解答", url: "#/qaList/1", child: [
+                { name: "脉冲电子围栏", url: "#/qaList/1" },
+                { name: "张力电子围栏", url: "#/qaList/2" },
+                { name: "振动光纤系统", url: "#/qaList/3" },
+                { name: "数字光端机", url: "#/qaList/4" }
             ]
         },
         {
@@ -43,7 +43,7 @@
                 { name: "员工动态", url: "#/" }
             ]
         },
-        { name: "新闻中心", url: "#/", child: null },
+        { name: "新闻中心", url: "#/newsList/1", child: null },
         {
             name: "加入应心", url: "#/", child: [
                 { name: "应聘流程", url: "#/" },

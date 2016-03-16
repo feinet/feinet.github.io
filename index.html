@@ -76,7 +76,7 @@
 
         <div ng-view=""></div>
 
-        <div class="row gray footer" ng-controller="footerCtrl">
+        <!--<div class="row gray footer" ng-controller="footerCtrl">
             <div class="col-md-12">
                 <div class="row" style="padding-top:20px;">
                     <div class="col-md-offset-1">
@@ -90,6 +90,25 @@
                     </div>
                 </div>
                 <div class="row text-center" style="margin-top:50px;padding-top:10px;padding-bottom:10px;background-color:#524f4f;">
+                    ©2016 上海应心科技有限公司 版权所有丨上海市闵行区浦江镇沈杜公路4285号丨400-0178-361
+                </div>
+            </div>
+        </div>-->
+
+        <div class="row footer" ng-controller="footerCtrl">
+            <div class="col-md-12">
+                <div class="row" style="padding-top: 20px; margin-bottom: -20px; color: #d7000f;">
+                    <div class="col-md-offset-1">
+                        <p>友情链接</p>
+                    </div>
+                </div><hr />
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <a ng-href="{{fLink.url}}" target="_blank" class="btn friendLink" style="background: url('{{fLink.img}}') no-repeat" ng-repeat="fLink in friendLink" data-placement="bottom" title="{{fLink.desc}}" on-finish-render="setTip()">
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center gray" style="margin-top:50px;padding-top:10px;padding-bottom:10px;background-color:#524f4f;">
                     ©2016 上海应心科技有限公司 版权所有丨上海市闵行区浦江镇沈杜公路4285号丨400-0178-361
                 </div>
             </div>
