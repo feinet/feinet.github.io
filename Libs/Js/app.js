@@ -21,6 +21,9 @@
     .when('/newsDetail/:catetogyId/:newsId', {
         templateUrl: 'Views/news/newsDetail.html'
     })
+     .when('/contactUs', {
+         templateUrl: 'Views/contactUs/main.html'
+     })
     .otherwise({
         redirectTo: '/'
     });

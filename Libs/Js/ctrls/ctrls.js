@@ -50,7 +50,7 @@
                 { name: "招聘职位", url: "#/" }
             ]
         },
-        { name: "联系我们", url: "#/sample/s2", child: null }
+        { name: "联系我们", url: "#/contactUs", child: null }
 
     ];
 
