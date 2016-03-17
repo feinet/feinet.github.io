@@ -1,0 +1,59 @@
+﻿<style>
+    .sol-block-title {
+        padding-top: 9px;
+        padding-left: 10px;
+    }
+    .sol-block-content {
+        padding: 10px;
+    }
+</style>
+<div class="row zoneSplit"></div>
+<div class="row" ng-controller="solutionCtrl">
+    <div class="col-md-offset-1 col-md-2 zone">
+        <h3><i class="fa fa-list-ul fa-margin" style="color: #d7000f;padding-left:10px;"></i>解决方案</h3>
+        <div class="sideMenu">
+            <div ng-repeat="menu in sideMenu" class="qaCategory sideMenuItem" ng-click="changeSolution(menu.id)" style="cursor:pointer;">
+                <a href="">{{menu.name}}</a><i class="fa fa-angle-right pull-right" style="padding-right:35px;"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-md-8 zone" style="padding:20px;">
+
+        <h3>{{solution.name}}</h3><hr />
+        <div class="row">
+            <img class="col-md-6" ng-src="{{solution.data.img}}" />
+            <div class="col-md-5" style="background: rgba(114,113,113,0.8); color: #fff;">
+                <h4>{{solution.name}}工作需求</h4><hr style="margin-top:5px;margin-bottom:5px;" />
+                <p ng-bind-html="solution.data.imgDesc"></p>
+            </div>
+        </div>
+
+        <div class="gray" style="height:36px;">
+            <h4 class="sol-block-title">{{solution.name}}工作的现状</h4>
+        </div>
+        <div class="sol-block-content" ng-bind-html="solution.data.workStatus"></div>
+
+        <div class="gray" style="height:36px;">
+            <h4 class="sol-block-title">{{solution.name}}工作特点</h4>
+        </div>
+        <div class="sol-block-content" ng-bind-html="solution.data.workAttr"></div>
+
+        <div class="gray" style="height:36px;">
+            <h4 class="sol-block-title">{{solution.name}}解决方案</h4>
+        </div>
+        <div class="sol-block-content" ng-bind-html="solution.data.solution"></div>
+
+        <div class="gray" style="height:36px;">
+            <h4 class="sol-block-title">{{solution.name}}应用优势</h4>
+        </div>
+        <div class="sol-block-content" ng-bind-html="solution.data.advantage"></div>
+
+        <div class="gray" style="height:36px;">
+            <h4 class="sol-block-title">{{solution.name}}应用案例</h4>
+        </div>
+        <div class="sol-block-content" ng-bind-html="solution.data.cases"></div>
+
+    </div>
+</div>

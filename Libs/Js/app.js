@@ -1,4 +1,4 @@
-﻿var mainMoudle = angular.module('mainApp', ['ngRoute']).config(function ($routeProvider) {
+﻿var mainMoudle = angular.module('mainApp', ['ngRoute', 'ngSanitize']).config(function ($routeProvider) {
     $routeProvider
     .when('/', {
         templateUrl: 'Views/main.html'
@@ -24,6 +24,9 @@
      .when('/contactUs', {
          templateUrl: 'Views/contactUs/main.html'
      })
+    .when('/solution/:id', {
+        templateUrl: 'Views/solution/main.html'
+    })
     .otherwise({
         redirectTo: '/'
     });

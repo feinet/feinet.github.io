@@ -12,18 +12,18 @@
             ]
         },
         {
-            name: "解决方案", url: "#/", child: [
-                { name: "电力", url: "#/" },
-                { name: "小区", url: "#/" },
-                { name: "别墅", url: "#/" },
-                { name: "学校", url: "#/" },
-                { name: "军事基地", url: "#/" },
-                { name: "监狱", url: "#/" },
-                { name: "看守所", url: "#/" },
-                { name: "能源", url: "#/" },
-                { name: "机场", url: "#/" },
-                { name: "动植物基地", url: "#/" },
-                { name: "仓库", url: "#/" }
+            name: "解决方案", url: "#/solution/1", child: [
+                { name: "电力", url: "#/solution/1" },
+                { name: "小区", url: "#/solution/2" },
+                { name: "别墅", url: "#/solution/3" },
+                { name: "学校", url: "#/solution/4" },
+                { name: "军事基地", url: "#/solution/5" },
+                { name: "监狱", url: "#/solution/6" },
+                { name: "看守所", url: "#/solution/7" },
+                { name: "能源", url: "#/solution/8" },
+                { name: "机场", url: "#/solution/9" },
+                { name: "动植物基地", url: "#/solution/10" },
+                { name: "仓库", url: "#/solution/12" }
             ]
         },
         {

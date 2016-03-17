@@ -16,8 +16,7 @@
                 <dt>
                     {{news.title}}
                 </dt><hr/>
-                <dd>
-                    {{news.content}}
+                <dd ng-bind-html="news.content">
                 </dd>
             </dl>
         </div>

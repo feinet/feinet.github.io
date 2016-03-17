@@ -17,7 +17,7 @@
                     <i class="fa fa-question-circle fa-margin"></i>{{qa.question}}
                 </dt><hr/>
                 <dd>
-                    <i class="fa fa-quote-left fa-margin"></i>{{qa.answer}}<i class="fa fa-quote-right"></i>
+                    <i class="fa fa-quote-left fa-margin"></i><p ng-bind-html="qa.answer"></p><i class="fa fa-quote-right"></i>
                 </dd>
             </dl>
         </div>
