@@ -1,0 +1,14 @@
+﻿<div class="row zoneSplit"></div>
+<div class="row" ng-controller="jobListCtrl">
+    <div class="col-md-offset-1 col-md-10">
+        <h3>加入我们</h3><hr />
+        <table class="table table-bordered table-hover text-center">
+            <tr>
+                <td>职位名称</td><td>职位性质</td><td>工作地点</td><td>发布日期</td>
+            </tr>
+            <tr ng-repeat="job in jobs">
+                <td class="job"><a href="#/joinUs/{{job.id}}">{{job.name}}</a></td><td>{{job.type}}</td><td>{{job.location}}</td><td>{{publishDate}}</td>
+            </tr>
+        </table>
+    </div>
+</div>

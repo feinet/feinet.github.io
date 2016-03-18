@@ -45,9 +45,9 @@
         },
         { name: "新闻中心", url: "#/newsList/1", child: null },
         {
-            name: "加入应心", url: "#/", child: [
-                { name: "应聘流程", url: "#/" },
-                { name: "招聘职位", url: "#/" }
+            name: "加入应心", url: "#/joinUs", child: [
+                //{ name: "应聘流程", url: "#/" },
+                { name: "招聘职位", url: "#/joinUs" }
             ]
         },
         { name: "联系我们", url: "#/contactUs", child: null }

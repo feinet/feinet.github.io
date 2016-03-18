@@ -27,6 +27,12 @@
     .when('/solution/:id', {
         templateUrl: 'Views/solution/main.html'
     })
+    .when('/joinUs/', {
+        templateUrl: 'Views/joinUs/jobList.html'
+    })
+    .when('/joinUs/:jobId', {
+        templateUrl: 'Views/joinUs/jobDetail.html'
+    })
     .otherwise({
         redirectTo: '/'
     });
