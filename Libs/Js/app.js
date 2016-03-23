@@ -33,6 +33,21 @@
     .when('/joinUs/:jobId', {
         templateUrl: 'Views/joinUs/jobDetail.html'
     })
+    .when('/afterService', {
+        templateUrl: 'Views/support/afterService.html'
+    })
+    .when('/rule', {
+        templateUrl: 'Views/support/rule_gydz.html'
+    })
+    .when('/rule_zls', {
+        templateUrl: 'Views/support/rule_zls.html'
+    })
+    .when('/install', {
+        templateUrl: 'Views/support/install_wl.html'
+    })
+    .when('/install_zdgx', {
+        templateUrl: 'Views/support/install_zdgx.html'
+    })
     .otherwise({
         redirectTo: '/'
     });

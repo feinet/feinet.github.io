@@ -165,6 +165,13 @@
         font-size: larger;
         transition: font-size 0.2s;
     }
+.a-link2 {
+    color: #727171;
+}
+
+    .a-link2:hover {
+        color: #d7000f;
+    }
 /** {
     transition:all 0.2s;
 }*/

@@ -2,13 +2,13 @@
     $scope.topMenu = [
         { name: "网站首页", url: "#/", child: null },
         {
-            name: "服务支持", url: "#/", child: [
-                { name: "售后服务", url: "#/" },
-                { name: "法规标准", url: "#/" },
-                { name: "下载中心", url: "#/" },
-                { name: "安装方式", url: "#/" },
-                { name: "操作视频", url: "#/" },
-                { name: "用户反馈", url: "#/" }
+            name: "服务支持", url: "#/afterService", child: [
+                { name: "售后服务", url: "#/afterService" },
+                { name: "法规标准", url: "#/rule" },
+                //{ name: "下载中心", url: "#/" },
+                { name: "安装方式", url: "#/install" }
+                //{ name: "操作视频", url: "#/" },
+                //{ name: "用户反馈", url: "#/" }
             ]
         },
         {
