@@ -35,12 +35,12 @@
             ]
         },
         {
-            name: "走近应心", url: "#/", child: [
-                { name: "公司介绍", url: "#/" },
-                { name: "生产基地", url: "#/" },
-                { name: "公司资质", url: "#/" },
-                { name: "经典案例", url: "#/" },
-                { name: "员工动态", url: "#/" }
+            name: "走近应心", url: "#/intro", child: [
+                { name: "公司介绍", url: "#/intro" },
+                //{ name: "生产基地", url: "#/" },
+                //{ name: "公司资质", url: "#/" },
+                { name: "经典案例", url: "#/classicalCase" }
+                //{ name: "员工动态", url: "#/" }
             ]
         },
         { name: "新闻中心", url: "#/newsList/1", child: null },

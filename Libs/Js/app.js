@@ -48,6 +48,12 @@
     .when('/install_zdgx', {
         templateUrl: 'Views/support/install_zdgx.html'
     })
+    .when('/intro', {
+        templateUrl: 'Views/stepInYX/comIntro.html'
+    })
+    .when('/classicalCase', {
+        templateUrl: 'Views/stepInYX/classicalCase.html'
+    })
     .otherwise({
         redirectTo: '/'
     });
