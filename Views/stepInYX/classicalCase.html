@@ -1,13 +1,18 @@
-﻿<div class="row zoneSplit"></div>
+﻿<style>
+    .caseItemImg {
+        height: 156px;
+        width: 246px;
+        box-shadow: 0 4px 10px rgba(0,0,0,.35);
+        margin: 5px 5px 5px 5px;
+        border-radius: 5px;
+    }
+</style>
+<div class="row zoneSplit"></div>
 <div class="row" ng-controller="stepInYXCaseCtrl">
     <div class="col-md-offset-1 col-md-10">
         <h3>经典案例</h3><hr />
-        <!--<div class="btn friendLink" ng-repeat="case in cases">
-            <img ng-src="{{case.img}}" style="width:100%;"/>
-            <div style="height:20px;width:100%">{{case.name}}</div>
-        </div>-->
         <div ng-repeat="case in cases" style="float:left;">
-            <button class="btn btn-default friendLink" style="background-image:url({{case.img}})"></button>
+            <button class="btn btn-default caseItemImg" style="background-image:url({{case.img}});"></button>
             <div class="text-center" style="height:20px;width:100%">{{case.name}}</div>
         </div>
 </div>
