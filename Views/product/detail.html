@@ -1,0 +1,13 @@
+﻿
+<div class="row zoneSplit"></div>
+<div class="row" ng-controller="productDetailCtrl">
+    <div class="col-md-offset-1 col-md-3 zone">
+        <h3>{{product.name}}</h3><hr />
+        <img ng-src="{{product.img}}" style="width:100%;">
+
+    </div>
+
+    <div class="col-md-7 zone" style="padding:20px;">
+        <div ng-bind-html="product.desc"></div>
+    </div>
+</div>

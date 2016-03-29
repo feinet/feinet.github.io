@@ -16,7 +16,7 @@
                 <h3><i class="fa fa-list-ul fa-margin" style="color: #d7000f;padding-left:10px;"></i>产品分类</h3>
                 <div class="sideMenu">
                     <div ng-repeat="menu in sideMenu" ng-class="{true: 'sideMenuItemCurrent', false: 'sideMenuItem'}[menu.isFocus]" ng-mouseover="focusItem($index)" ng-mouseleave="blurItem($index)">
-                        <a href="{{menu.url}}">{{menu.name}}</a><i class="fa fa-angle-right pull-right" style="padding-right:35px;"></i>
+                        <a href="{{menu.url}}productList/{{$index+1}}">{{menu.name}}</a><i class="fa fa-angle-right pull-right" style="padding-right:35px;"></i>
                         <!--<div class="row sideMenuChild" ng-show="menu.isFocus">
                             <div class="col-md-6 text-center">
                                 <p>{{menu.child[0].name}}</p>

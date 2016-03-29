@@ -6,7 +6,7 @@
             type: '技术支持类',
             number: '若干',
             location: '上海',
-            email: 'rsb@dahuatech.com',
+            email: 'info@ying-heart.com',
             responsibility: '1、配合销售完成系统项目销售任务，制作符合客户需求的方案；<br />' +
                         '2、跟踪所负责区域的项目，协调公司资源完成项目操作的各项活动；<br />' +
                         '3、维护所负责行业的技术层面客户关系，组织区域的品牌活动；<br />' +
@@ -22,7 +22,7 @@
             type: '销售商务类',
             number: '若干',
             location: '上海',
-            email: 'rsb@dahuatech.com',
+            email: 'info@ying-heart.com',
             responsibility: '1、负责公司产品的销售及推广；<br />' +
                             '2、根据市场营销计划，完成部门销售指标；<br />' +
                             '3、开拓新市场，发展新客户，增加产品销售范围；<br />' +
@@ -40,7 +40,7 @@
             type: '研发类',
             number: '2人',
             location: '上海',
-            email: 'rsb@dahuatech.com',
+            email: 'info@ying-heart.com',
             responsibility: '1、负责电子产品及相关软件功能测试；<br />' +
                             '2、根据需求文档编写测试计划，设计测试用例；<br />' +
                             '3、实施软件测试，并对软件问题进行跟踪分析和报告，推动测试中发现问题及时合理解决；<br />' +
@@ -60,7 +60,7 @@
             type: '研发类',
             number: '2人',
             location: '上海',
-            email: 'rsb@dahuatech.com',
+            email: 'info@ying-heart.com',
             responsibility: '1、安防系统研发、测试；<br />' +
                                     '2、电子产品测试设备及工装的开发、制作与维护；<br />' +
                                     '3、编制测试过程及设备使用的作业指导文件；<br />' +
@@ -76,7 +76,7 @@
             type: '职能类',
             number: '1人',
             location: '上海',
-            email: 'rsb@dahuatech.com',
+            email: 'info@ying-heart.com',
             responsibility: '负责销售合同的管理，ERP相关单据的操作',
             require: '1、能熟练操作Office办公软件，会操作ERP软件优先；<br />' +
                                     '2、认真仔细，能吃苦耐劳，有较强的责任心；<br />' +

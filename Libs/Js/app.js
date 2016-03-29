@@ -54,6 +54,12 @@
     .when('/classicalCase', {
         templateUrl: 'Views/stepInYX/classicalCase.html'
     })
+    .when('/productList/:id', {
+        templateUrl: 'Views/product/list.html'
+    })
+    .when('/productDetail/:categoryId/:mainOrSecond/:productId', {
+        templateUrl: 'Views/product/detail.html'
+    })
     .otherwise({
         redirectTo: '/'
     });

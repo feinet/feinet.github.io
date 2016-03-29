@@ -1,0 +1,52 @@
+﻿<style>
+    .sol-block-title {
+        padding-top: 9px;
+        padding-left: 10px;
+    }
+
+    .sol-block-content {
+        padding: 10px;
+    }
+</style>
+<div class="row zoneSplit"></div>
+<div class="row" ng-controller="productListCtrl">
+    <div class="col-md-offset-1 col-md-2 zone">
+        <h3><i class="fa fa-list-ul fa-margin" style="color: #d7000f;padding-left:10px;"></i>产品中心</h3>
+        <div class="sideMenu">
+            <div ng-repeat="menu in products" class="qaCategory sideMenuItem" ng-click="changeCategory(menu.id)" style="cursor:pointer;">
+                <a href="">{{menu.name}}</a><i class="fa fa-angle-right pull-right" style="padding-right:35px;"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-md-8 zone" style="padding:20px;">
+        <h3>{{category.name}}</h3><hr />
+        <img ng-src="{{category.headImg}}" style="width:80%;">
+        <div class="gray" style="height:36px;">
+            <h4 class="sol-block-title">主机</h4>
+        </div><br />
+        <div ng-repeat="mp in category.main" style="width: 260px;margin-left:5px;margin-bottom:5px;float:left;">
+            <img ng-src="{{mp.img}}" style="width: 100%; height: 260px; border: solid; border-color: #eeeeee; border-width: 1px; ">
+            <div style="height: 30px; width: 100%; background-color: #d7000f;color:#fff;">
+                <span style="float:left;margin-top:5px;margin-left:15px;">{{mp.name}}</span>
+                <span style="float: right; margin-top: 5px; margin-right: 5px;">
+                    <a style="color: #fff; cursor: pointer;text-decoration:underline;" href="#/productDetail/{{category.id}}/1/{{mp.id}}">查看详情</a> <i class="fa fa-angle-right"></i>
+                </span>
+            </div>
+        </div>
+        
+        <div class="gray" style="height:36px;clear:both;">
+            <h4 class="sol-block-title">配件</h4>
+        </div><br />
+        <div ng-repeat="sp in category.second" style="width: 260px;margin-left:5px;margin-bottom:5px;float:left;">
+            <img ng-src="{{sp.img}}" style="width: 100%; height: 260px; border: solid; border-color: #eeeeee; border-width: 1px; ">
+            <div style="height: 30px; width: 100%; background-color: #d7000f;color:#fff;">
+                <span style="float:left;margin-top:5px;margin-left:15px;">{{sp.name}}</span>
+                <span style="float: right; margin-top: 5px; margin-right: 5px;">
+                    <a style="color: #fff; cursor: pointer;text-decoration:underline;" href="#/productDetail/{{category.id}}/2/{{sp.id}}">查看详情</a> <i class="fa fa-angle-right"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
