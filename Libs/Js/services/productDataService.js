@@ -42,156 +42,156 @@
             second:[
                 {
                     id:1,
-                    name:'L型铝合金杆',
-                    img:'/Sources/realImgs/products/1mcdzwl/01lxlhjg.png',
+                    name:'L型铝制过线杆',
+                    img:'/Sources/realImgs/products/1mcdzwl/01lzgxg.png',
                     desc:'用途：	给脉冲电子围栏前端的合金丝提供足够大的张力，固定脉冲电子围栏前端的合金丝，防止前端合金丝上下左右摆动<br />'+						
                         '参数：	铝合金管、承受拉力、耐腐蚀 '
                 },
                 {
                     id:2,
-                    name:'安装配件',
-                    img:'/Sources/realImgs/products/1mcdzwl/02anpj.png',
+                    name:'L型铝制终端杆',
+                    img:'/Sources/realImgs/products/1mcdzwl/02lzzdg.png',
                     desc:'用途：	将中间杆固定在万向底座上	<br />'+
                         '参数：	不锈钢材质、防锈、强度高'
                 },
                 {
                     id:3,
-                    name:'半球绝缘子',
-                    img:'/Sources/realImgs/products/1mcdzwl/03bqjyz.png',
+                    name:'铝制终端杆带警灯',
+                    img:'/Sources/realImgs/products/1mcdzwl/03zdgddz.png',
                     desc:'用途：	用于脉冲电子围栏前端合金丝与承力杆、地之间的绝缘<br />'+
                         '参数：	ABS工程塑料材，耐腐蚀；产品特性：防水隔槽、耐压>15KV。'
                 },
                 {
                     id:4,
-                    name:'半球圆环绝缘子',
-                    img:'/Sources/realImgs/products/1mcdzwl/04bqhxjyz.png',
+                    name:'纤维杆',
+                    img:'/Sources/realImgs/products/1mcdzwl/04xwg.png',
                     desc:'用途：	用于脉冲电子围栏前端合金丝与过线杆、地之间的绝缘<br />'+
                     '参数：	Pp工程塑料；产品特性：防水隔槽、耐压>15KV；用自攻螺丝将其固定于过线杆上。无节点设计，线距可根据客户需求任意调节。'
                 },
                 {
                     id:5,
-                    name:'补线器',
-                    img:'/Sources/realImgs/products/1mcdzwl/05bxq.png',
+                    name:'铝合金万向底座',
+                    img:'/Sources/realImgs/products/1mcdzwl/05lhjdz.png',
                     desc:'用途：	直接安装在砖墙、水泥柱或钢管上，在结构不规则的地方使用，做到整个电子围栏系统没有盲区。<br />'+
                     '参数：	90*35*20mm；ABS工程塑料材质，耐腐蚀；防水结构设计。'
                 },
                 {
                     id:6,
-                    name:'不锈钢设备箱',
-                    img:'/Sources/realImgs/products/1mcdzwl/06bxgsbx.png',
+                    name:'镀锌万向底座',
+                    img:'/Sources/realImgs/products/1mcdzwl/06dxdz.png',
                     desc:'用途：	防水箱是防水防尘的箱体，用于保护箱内设备(脉冲主机等）、线路等进水而影响其性能。<br />'+
                     '参数：	室外防水结构设计；安装另活简单方便；201不锈钢材质'
                 },
                 {
                     id:7,
-                    name:'镀锌烤漆杆',
-                    img:'/Sources/realImgs/products/1mcdzwl/07dxgqg.png',
+                    name:'半球圆环绝缘子',
+                    img:'/Sources/realImgs/products/1mcdzwl/07bqyhjyz.png',
                     desc:'用途：	给脉冲电子围栏前端的合金丝提供足够大的张力，固定脉冲电子围栏前端的合金丝，防止前端合金丝上下左右摆动<br />'+
                     '参数：	镀锌+室外防静电烤漆材质，耐腐蚀，美观大方，强度高 '
                 },
                 {
                     id:8,
-                    name:'防水帽',
-                    img:'/Sources/realImgs/products/1mcdzwl/08fsm.png',
+                    name:'环型绝缘子',
+                    img:'/Sources/realImgs/products/1mcdzwl/08hxjyz.png',
                     desc:'用途：	安装在杆子的顶端，用于防止雨水的侵入。<br />'+
                     '参数：	工程塑料、PP、环保材料、阻燃系统UL94V-0；耐脉冲高压25KV以上，防静电，抗氧化，防腐蚀'
                 },
                 {
                     id:9,
-                    name:'复合型绝缘子',
-                    img:'/Sources/realImgs/products/1mcdzwl/09fhxjyz.png',
+                    name:'中间杆绝缘子',
+                    img:'/Sources/realImgs/products/1mcdzwl/09zjgjyz.png',
                     desc:'用途：	复合型终端绝缘子安装在圆形终端杆上,集连接、 紧线、 绝缘及固定功能一体化设计<br />'+
                     '参数：	POM工程塑料 产品特性：一体化设计, 耐压>15kv；更强的防拆性、 更便利的安装,使围栏线体部件更少、 更整齐、 更美观'
                 },
                 {
                     id:10,
-                    name:'高压避雷器',
-                    img:'/Sources/realImgs/products/1mcdzwl/10gyblq.png',
+                    name:'复合绝缘子',
+                    img:'/Sources/realImgs/products/1mcdzwl/10fhjyz.png',
                     desc:'用途：	避雷器安装在每个防区靠近围栏主机的支架上，起到围栏避雷的作用。<br />'+
                     '参数：	化学防雷；防静电；易于维护；保护无线通讯信号不受脉冲高压干扰。'
                 },
                 {
                     id:11,
-                    name:'高压绝缘线',
-                    img:'/Sources/realImgs/products/1mcdzwl/11gyjyx.png',
+                    name:'自攻绝缘子',
+                    img:'/Sources/realImgs/products/1mcdzwl/11zgjyz.png',
                     desc:'用途：	用于合金丝与脉冲主机之间连接及防区末端跳线使用。<br />'+
                     '参数：	外层绝缘层超规格设计，耐受30KV电压，内芯采用脉冲电子围栏专用合金线，以防止两种金属导线接触，不同的金属发生电化学反应。'
                 },
                 {
                     id:12,
-                    name:'固定夹',
-                    img:'/Sources/realImgs/products/1mcdzwl/12gdj.png',
+                    name:'防水帽',
+                    img:'/Sources/realImgs/products/1mcdzwl/12fsm.png',
                     desc:'用途：	将终端杆绝缘子固定在终端杆上<br />'+
                     '参数：	产Φ3不锈钢 产品特性：采用优质的不锈钢制造，高密度，高强度，防腐蚀；'
                 },
                 {
                     id:13,
-                    name:'合金丝',
-                    img:'/Sources/realImgs/products/1mcdzwl/13hjs.png',
+                    name:'纤维杆底座固定件',
+                    img:'/Sources/realImgs/products/1mcdzwl/13xwgdzpj.png',
                     desc:'用途：	作为电子围栏系统中脉冲电的承载体，具有直流电阻低，易安装的优点。<br />'+
                     '参数：	脉冲电子围栏专业合金线，含十几种金属，抗氧化，耐腐蚀，耐高压，每百米电阻小于2.5欧姆。'
                 },
                 {
                     id:14,
-                    name:'环型绝缘子',
-                    img:'/Sources/realImgs/products/1mcdzwl/14hxjyz.png',
+                    name:'紧线器',
+                    img:'/Sources/realImgs/products/1mcdzwl/14jxq.png',
                     desc:'用途：	用于脉冲电子围栏前端合金丝与终端杆、地之间的绝缘<br />'+
                     '参数：	ABS工程塑料材，耐腐蚀；产品特性：防水隔槽、耐压>15KV。'
                 },
                 {
                     id:15,
-                    name:'接地桩',
-                    img:'/Sources/realImgs/products/1mcdzwl/15jd.png',
+                    name:'线线连接器',
+                    img:'/Sources/realImgs/products/1mcdzwl/15xxljq.png',
                     desc:'用途：	使用接地线连接至接地桩，接地桩打入地底下，起到放电作用，防止设备被雷击坏。<br />'+
                     '参数：	热镀锌三角铁；长度：1米。'
                 },
                 {
                     id:16,
-                    name:'警灯底座',
-                    img:'/Sources/realImgs/products/1mcdzwl/16jdzz.png',
+                    name:'高压绝缘线',
+                    img:'/Sources/realImgs/products/1mcdzwl/16gyjyx.png',
                     desc:'用途：	安装在杆子的顶端，其上面用于固定声光报警器<br />'+
                     '参数：	安装方便、镀锌+室外防静电烤漆材质，耐腐蚀'
                 },
                 {
                     id:17,
-                    name:'卡型绝缘子',
-                    img:'/Sources/realImgs/products/1mcdzwl/17kxjyz.png',
+                    name:'合金丝',
+                    img:'/Sources/realImgs/products/1mcdzwl/17hjs.png',
                     desc:'用途：	用于脉冲电子围栏前端合金丝与中间PV过线杆、地之间的绝缘<br />'+
                     '参数：	Pp工程塑料；产品特性：防水隔槽、耐压>15KV；无节点设计，线距可根据客户需求任意调节。'
                 },
                 {
                     id:18,
-                    name:'声光报警器',
-                    img:'/Sources/realImgs/products/1mcdzwl/18sgbjq.png',
+                    name:'夜光警示牌',
+                    img:'/Sources/realImgs/products/1mcdzwl/18ygjsp.png',
                     desc:'用途：	安装在每个防区内围墙上，报警后发出声光报警提示，起到报警后震慑非法入侵者使用。<br />'+
                     '参数：	1、室外防水设计，可长期稳定工作在室外环境中。<br />'+
                     '2、工作电压：DC-12V；分贝：95db。'
                 },
                 {
                     id:19,
-                    name:'收紧器',
-                    img:'/Sources/realImgs/products/1mcdzwl/19sjq.png',
+                    name:'高压避雷器',
+                    img:'/Sources/realImgs/products/1mcdzwl/19gyblq.png',
                     desc:'用途：	安装在每两根终端杆之间的合金丝上，合金丝从紧线器内穿过，通过旋转紧线器把手将合金丝拉直拉紧。<br />'+
                     '参数：	复合材料、耐腐蚀 ；产品特性：阻燃系数UL94V-0,抗静电、抗氧化、防腐蚀。  '
                 },
                 {
                     id:20,
-                    name:'万向底座',
-                    img:'/Sources/realImgs/products/1mcdzwl/20wxdz.png',
+                    name:'接地',
+                    img:'/Sources/realImgs/products/1mcdzwl/20jd.png',
                     desc:'用途：	用于固定终端杆/承力杆/过线杆底部与墙体之间的固定。<br />'+
                     '参数：	铝合金材质、防静电喷漆；安装时可选择任意方向：0°、22.5°、45°、... '
                 },
                 {
                     id:21,
-                    name:'线线连接器',
-                    img:'/Sources/realImgs/products/1mcdzwl/21xxljq.png',
+                    name:'蓄电池',
+                    img:'/Sources/realImgs/products/1mcdzwl/21xdc.png',
                     desc:'用途：	用于线与线的压接，连接高压绝缘线和金属导线部分。<br />'+
                     '参数：	铝、镁、锰、锌等十几种合材料；双螺纹结构，防松动，防腐蚀，抗氧化。 '
                 },
                 {
                     id:22,
-                    name:'蓄电池',
-                    img:'/Sources/realImgs/products/1mcdzwl/22xdc.png',
+                    name:'声光报警器',
+                    img:'/Sources/realImgs/products/1mcdzwl/22sgbjq.png',
                     desc:'用途：	用于AC220V停电可继续给脉冲主机供电，保证系统8小时内正常工作。<br />'+
                     '参数：	1、安全性能好：正常使用下无电解液漏出，无电池膨胀及破裂。<br />'+
                     '2、放电性能好：放电电压平稳，放电平台平缓。<br />'+
@@ -199,15 +199,15 @@
                 },
                 {
                     id:23,
-                    name:'鸭嘴型绝缘子',
-                    img:'/Sources/realImgs/products/1mcdzwl/23yzxjyz.png',
+                    name:'警灯支架',
+                    img:'/Sources/realImgs/products/1mcdzwl/23jdzj.png',
                     desc:'用途：	用于脉冲电子围栏前端合金丝与终端杆、地之间的绝缘 <br />'+
                     '参数：	ABS工程塑料 产品特性：防水隔槽、耐压>15KV；用终端杆固定夹把绝缘子挂在终端杆上。'
                 },
                 {
                     id:24,
-                    name:'夜光警示牌',
-                    img:'/Sources/realImgs/products/1mcdzwl/24ygjsp.png',
+                    name:'不锈钢设备箱',
+                    img:'/Sources/realImgs/products/1mcdzwl/24bqgfsx.png',
                     desc:'用途：	安装在电子围栏的合金丝上，每10米安装一只，起到警示提醒作用。<br />'+
                     '参数：	雪弗板；防腐蚀，防雨雪天气，双面夜光，不易退色。'
                 }
@@ -273,22 +273,22 @@
             second:[
                 {
                     id:1,
-                    name:'多用途滑轮',
-                    img:'/Sources/realImgs/products/2zldzwl/01dythl.jpg',
+                    name:'受力杆',
+                    img:'/Sources/realImgs/products/2zldzwl/01slg.jpg',
                     desc:'用途：	主要用于墙体高低落差处及转角处使用。<br />'+
                     '参数：	材质：铝合金材质，抗氧化、耐腐蚀、易安装'
                 },
                 {
                     id:2,
-                    name:'高压避雷器',
-                    img:'/Sources/realImgs/products/2zldzwl/02gyblq.png',
+                    name:'中间杆',
+                    img:'/Sources/realImgs/products/2zldzwl/02zjg.jpg',
                     desc:'用途：	避雷器安装在每个防区靠近张力探测杆的支架上，起到围栏避雷的作用。<br />'+
                     '参数：	化学防雷；防静电；易于维护；保护无线通讯信号不受脉冲高压干扰。'
                 },
                 {
                     id:3,
-                    name:'过线杆',
-                    img:'/Sources/realImgs/products/2zldzwl/03gxg.jpg',
+                    name:'铝合金万向底座',
+                    img:'/Sources/realImgs/products/2zldzwl/03lhjwxdz.jpg',
                     desc:'用途：	是架构张力围栏的重要组件，主要起到支撑张力线的作用<br />'+
                     '参数：	1、坚实耐用：铝合金材质强度高，表面阳极氧化处理，耐腐蚀性好<br />'+
                     '2、安装灵活：采用万向底座，多角度调节，高度落差可调<br />'+
@@ -296,8 +296,8 @@
                 },
                 {
                     id:4,
-                    name:'受力杆',
-                    img:'/Sources/realImgs/products/2zldzwl/04slg.jpg',
+                    name:'不锈钢弹簧',
+                    img:'/Sources/realImgs/products/2zldzwl/04bxgth.jpg',
                     desc:'产用途：	主要承受张力控制器转借来的张紧力和支撑张力线的作用<br />'+
                    '参数：	1、有足够的抗拉强度（大于3000N），且能承受防区所有钢丝绳的拉力而不变形<br />'+
                    '2、坚实耐用：铝合金材质强度高，表面阳极氧化处理，耐腐蚀性好<br />'+
@@ -307,8 +307,8 @@
                 },
                 {
                     id:5,
-                    name:'束线器',
-                    img:'/Sources/realImgs/products/2zldzwl/05sxq.jpg',
+                    name:'张力收紧器',
+                    img:'/Sources/realImgs/products/2zldzwl/05zlsjq.jpg',
                     desc:'用途：	束线器俗称铝线夹，用于张力线连接处，固定张力线。和不同粗细型号的不锈钢丝配套使用。<br />'+
                     '参数：	1、坚实耐用：抗氧化、耐腐蚀、易安装，紧线可靠<br />'+
                    ' 2、材质：铝合金<br />'+
@@ -316,53 +316,53 @@
                 },
                 {
                     id:6,
-                    name:'声光报警器',
-                    img:'/Sources/realImgs/products/2zldzwl/06sgbjq.png',
+                    name:'转向滑轮',
+                    img:'/Sources/realImgs/products/2zldzwl/06zxhl.jpg',
                     desc:'用途：	安装在每个防区内围墙上，报警后发出声光报警提示，起到报警后震慑非法入侵者使用。<br />'+
                     '参数：	1、室外防水设计，可长期稳定工作在室外环境中。<br />'+
                     '	2、工作电压：DC-12V；分贝：95db。'
                 },
                 {
                     id:7,
-                    name:'万向底座',
-                    img:'/Sources/realImgs/products/2zldzwl/07wxdz.png',
+                    name:'不锈钢丝',
+                    img:'/Sources/realImgs/products/2zldzwl/07bxgs.jpg',
                     desc:'用途：	用于固定终端杆/承力杆/过线杆底部与墙体之间的固定。<br />'+
                     '参数：	铝合金材质、防静电喷漆；安装时可选择任意方向：0°、22.5°、45°、...'
                 },
                 {
                     id:8,
-                    name:'张力弹簧',
-                    img:'/Sources/realImgs/products/2zldzwl/08zlth.jpg',
+                    name:'束线器',
+                    img:'/Sources/realImgs/products/2zldzwl/08sxq.jpg',
                     desc:'用途：	用在防区开始端，连接张力传感器与张力线，每个防区每一根线用一个<br />'+
                    ' 参数：	1、能承受1000N力，永久耐腐蚀<br />'+
                     '2、材质：不锈钢SUS304 '
                 },
                 {
                     id:9,
-                    name:'张力收紧器',
-                    img:'/Sources/realImgs/products/2zldzwl/09zlssq.jpg',
+                    name:'多用途滑轮',
+                    img:'/Sources/realImgs/products/2zldzwl/09dythl.jpg',
                     desc:'用途：	用于张力线的收紧，一个防区的每根线需配置一个<br />'+
                     '参数：	1、材质：铝合金材质，抗氧化、耐腐蚀、易安装<br />'+
                     '2、功能：钢丝绳收紧自锁功能，精密紧线，无极变速，解决紧线器倒转'
                 },
                 {
                     id:10,
-                    name:'夜光警示牌',
-                    img:'/Sources/realImgs/products/2zldzwl/10ygjsp.png',
+                    name:'高压避雷器',
+                    img:'/Sources/realImgs/products/2zldzwl/10gyblq.jpg',
                     desc:'用途：	安装在张力围栏的张力线上，每10米安装一只，起到警示提醒作用。<br />'+
                     '参数：	产品材质：雪弗板；防腐蚀，防雨雪天气，双面夜光，不易退色。'
                 },
                 {
                     id:11,
-                    name:'张力线',
-                    img:'/Sources/realImgs/products/2zldzwl/11zlx.jpg',
+                    name:'声光报警器',
+                    img:'/Sources/realImgs/products/2zldzwl/11sgbjq.jpg',
                     desc:'用途：	作为张力围栏系统中脉冲电的承载体，具有直流电阻低，易安装的优点<br />'+
                    ' 参数：	材质：304/316不锈钢、抗氧化、耐腐蚀'
                 },
                 {
                     id:12,
-                    name:'转向滑轮',
-                    img:'/Sources/realImgs/products/2zldzwl/12zxhl.jpg',
+                    name:'夜光警示牌',
+                    img:'/Sources/realImgs/products/2zldzwl/12ygjsp.jpg',
                     desc:'用途：	内有轴承轮子，保证张力线在滑轮上滑动时摩擦力最小，适用于转角处90度安装面<br />'+
                     '参数：	1、材质：铝合金材质，抗氧化、耐腐蚀、易安装<br />'+
                     '2、安装在受力杆上，使张力线受力时不会脱出轴承滑轮，稳定可靠。'

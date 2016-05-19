@@ -22,7 +22,8 @@
         { name: "污水处理厂", url: "#/", img: "/Sources/realImgs/classicalCase/20wsclc.jpg" },
         { name: "西郊花园", url: "#/", img: "/Sources/realImgs/classicalCase/21xjhy.jpg" },
         { name: "新建工地", url: "#/", img: "/Sources/realImgs/classicalCase/22xjgd.jpg" },
-        { name: "阳光小区", url: "#/", img: "/Sources/realImgs/classicalCase/23ygxq.jpg" }
+        { name: "阳光小区", url: "#/", img: "/Sources/realImgs/classicalCase/23ygxq.jpg" },
+        { name: "铝制弯杆", url: "#/", img: "/Sources/realImgs/classicalCase/24lzwg.jpg" }
     ];
     
 
